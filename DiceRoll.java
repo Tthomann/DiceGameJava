@@ -1,3 +1,4 @@
+package DiceGameJava;
 
 public class DiceRoll {
 	private int die1;
@@ -39,3 +40,5 @@ public int getDie6(){
 	
 
 }
+
+
