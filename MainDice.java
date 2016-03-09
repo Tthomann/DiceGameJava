@@ -5,6 +5,7 @@ package DiceGameJava;
 public class MainDice {
 
 	public static void main(String[] args) {
+<<<<<<< HEAD
 		
 		//ChooseDice instanceDice = new ChooseDice();
 		//instanceDice.DiceSelect();
@@ -23,6 +24,14 @@ public class MainDice {
 
 		}
 
+=======
+		Rules startMenu = new Rules();
+		BodyContainers bodyArray = new BodyContainers();
+		ChooseDice diceSelection = new ChooseDice();
+		startMenu.getRules();
+		diceSelection.DiceSelect();
+		bodyArray.addPartToList("");
+>>>>>>> 5f60c666ae68f8db509817ef95e65b1a12ba02dd
 
 	}
 

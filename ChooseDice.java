@@ -17,23 +17,18 @@ public class ChooseDice{
 			
 			case 1:
 				CheckTheDice.EvaluateDice1();
-
 				break;
 			case 2:
 				CheckTheDice.EvaluateDice2();
-
 				break;
 			case 3:
 				CheckTheDice.EvaluateDice3();
-
 				break;
 			case 4:
 				CheckTheDice.EvaluateDice4();
-
 				break;
 			case 5:
 				CheckTheDice.EvaluateDice5();
-
 				break;
 			case 6:
 				CheckTheDice.EvaluateDice6();
