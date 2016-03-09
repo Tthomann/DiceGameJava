@@ -1,3 +1,4 @@
+
 package DiceGameJava;
 
 
@@ -22,8 +23,7 @@ public class MainDice {
 
 		}
 
-	
 
-	
+	}
 
-}
+
