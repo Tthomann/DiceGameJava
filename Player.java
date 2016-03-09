@@ -1,20 +1,18 @@
 package DiceGameJava;
 import java.util.Scanner;
+
+
 public class Player{
-	
+	ChooseDice chooseDice = new ChooseDice();
 	Scanner input = new Scanner(System.in);
 	
 	public Player(){
-		String name = input.next();
+	
+	}
+	public void getChooseDice(){
+		chooseDice.DiceSelect();
 	}
 	
-	public void makePlayers(){
-		Player player = new Player();
-	}
-	
-	public void playerDiceChoice(){
-		
-	}
 	
 
 }
