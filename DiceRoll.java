@@ -1,5 +1,5 @@
 package DiceGameJava;
-
+import java.util.*;
 	public class DiceRoll {
 		int die1;
 		int die2;

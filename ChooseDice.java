@@ -1,6 +1,6 @@
 package DiceGameJava;
 import java.util.Scanner;
-
+import java.util.*;
 public class ChooseDice{
 	DiceEvaluation CheckTheDice = new DiceEvaluation();
 	
@@ -34,8 +34,8 @@ public class ChooseDice{
 				CheckTheDice.EvaluateDice6();
 				break;
 			default:
-				
+				break;
 			}
-		selectDice.close();
+	
 		}
 }
